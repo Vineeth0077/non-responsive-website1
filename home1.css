@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(design1.jpg);
+    image-resolution: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    width: 0;
+    height: 3px;
+    content: '';
+    background: aliceblue;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 1s;
+}
+
+.navbar ul li:hover:after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: black;
+}
+
+.content h1 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 20px;
+    margin-top: 12px;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+button a {
+    color: #fff;
+}
+
+span {
+    background: #000;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 1s;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
+
+
+/*css file for house page*/
+
+.house {
+    background-image: url(design3.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.bedroom {
+    background-image: url(bedroom1.jpeg);
+}
+
+.dining {
+    background-image: url(dining3.jpg);
+}
+
+.Kitchen {
+    background-image: url(kitchen5.jpg);
+}
+
+.balcony {
+    background-image: url(balcony3.jpg);
+}
+
+.feedback {
+    background-image: url(feedback4.png);
+}
+
+.contact {
+    background-image: url(contact2.jpg);
+}
+
+
+/*.feedback {
+    background-image: url(feedback2.jpg);
+}*/
+
+.review box {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content1 {
+    width: 100%;
+    position: absolute;
+    top: 110%;
+    text-align: center;
+    transform: translateY(-50%);
+    color: black;
+}
+
+p.thankyou {
+    right: 80%;
+    left: 50%;
+    text-align: center;
+    top: 75%;
+    color: #000;
+    font-weight: bolder;
+    position: absolute;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    position: absolute;
+    top: 55%;
+}
+
+h3 {
+    text-align: center;
+    top: 80%;
+    position: absolute;
+    right: 45%;
+}
+
+
+/* normal house css*/
+
+
+/*.normal {
+    position: absolute;
+    text-align: center;
+    color: white;
+    left: 50%;
+    transform: translateY(-100%);
+}
+
+.normal img {
+    width: 50px;
+}*/
+
+.normal1 {
+    position: absolute;
+    text-align: center;
+}
+
+.normal1 img {}
+
+.text {}
